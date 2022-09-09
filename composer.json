@@ -1,0 +1,20 @@
+{
+
+"autoload" : {
+  "psr-4" : {
+    "app\\" : "app/",
+    "source\\" : "source/"
+  }
+},
+  "require": {
+    "phpmailer/phpmailer": "^6.6",
+    "intervention/image": "^2.7",
+    "simple-crud/simple-crud": "^7.5",
+    "phpunit/phpunit": "^9",
+    "ext-pdo": "*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
